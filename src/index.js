@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './pages/home';
+import Error from './pages/404';
 import CadastroVideo from './pages/cadastro/Video'
 import CadastroCategoria from './pages/cadastro/Categoria'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
@@ -12,7 +13,7 @@ ReactDOM.render(
     <Route path="/" component={Home} exact/>
     <Route path="/cadastro/video" component={CadastroVideo}/>
     <Route path="/cadastro/categoria" component={CadastroCategoria}/>
-    <Route component={() => <div style={{background: "red"}}>Página 404</div>} />
+    <Route component={Error} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')

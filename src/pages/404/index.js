@@ -1,10 +1,11 @@
 import React from 'react'
 
 function Joguinho() {
+
+    
+    
     return (
-        <canvas>
-            
-        </canvas>
+        <canvas id="game-canvas" width="320" height="480" />
     )
 }
 
