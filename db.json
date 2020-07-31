@@ -1,0 +1,10 @@
+{
+    "categorias": [
+        {
+            "id":1,
+            "nome": "Front-end",
+            "descricao": "Responsável pela parte visível da aplicação",
+            "cor": "#cbdlff"
+        }
+    ]
+}

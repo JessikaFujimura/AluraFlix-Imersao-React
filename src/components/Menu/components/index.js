@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ButtonLink(props) {
-    return (
-        <a href={props.link} className={props.className}>
-            {props.children}
-        </a>
-    )
+function ButtonLink({ link, className, children }) {
+  return (
+    <a href={link} className={className}>
+      {children}
+    </a>
+  );
 }
 
-export default ButtonLink
+export default ButtonLink;
